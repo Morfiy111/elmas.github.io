@@ -139,6 +139,7 @@ button.close {
     height: 520px;
     background: url(../images/bg-top.jpg) 50% 50% no-repeat;
     background-size: cover;
+    margin-bottom: 20px;
 }
 .banner-main .banner__desc h1 {
     font-weight: bold;
@@ -230,6 +231,44 @@ button.close {
     display: block;
     font-weight: normal;
     font-size: 14px;
+}
+.equipment-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+.equipment-flex img {
+    width: 100%;
+}
+.equipment-flex-item {
+    width: 33%;
+    position: relative;
+    margin-bottom: 10px;
+}
+.overlay-equipment {
+    background-color: rgb(12%, 12%, 16%, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: .5s ease-in-out;
+}
+.equipment-text-block {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 25px;
+    z-index: 1;
+    color: #fff;
+}
+.equipment-flex-item:hover .overlay-equipment {
+    background-color: rgb(12%, 12%, 16%, 0.1);
+}
+.text-center-block {
+    text-align: center;
 }
 @media (max-width: 991px) {
     
