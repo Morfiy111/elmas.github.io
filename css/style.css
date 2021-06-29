@@ -334,11 +334,76 @@ button.close {
     z-index: 1;
 }
 @media (max-width: 991px) {
-    
+    .slogan-page-style .slogan-page:before {
+        top: 75%;
+    }
+    .main__header__top {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .logo-page {
+        margin-bottom: 15px;
+    }
 }
 @media (max-width: 767px) {
-    
+    .advantages-block-item {
+        display: block;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+        color: #fff;
+        background-color: transparent;
+    }
+    .slogan-page-style .slogan-page::before, .slogan-page-style .slogan-page::after {
+        background: transparent;
+    }
+    .navbar-toggle {
+        margin-right: 0;
+    }
 }
 @media(max-width: 500px) {
-    
+    .advantages-block-flex {
+        flex-wrap: wrap;
+    }
+    .advantages-block-item {
+        width: 100%;
+    }
+    .advantages-block-item {
+        display: flex;
+    }
+    .equipment-flex-item {
+        width: 49%;
+    }
+    .range-application-item:nth-child(1), .range-application-item:nth-child(2), .range-application-item:nth-child(3) {
+        width: 100%;
+    }
+    .banner-main .banner__desc h1 {
+        font-size: 30px;
+    }
+    .main__header__top__col-date {
+        flex-wrap: wrap;
+    }
+    .main__header__top__col-date {
+        margin-bottom: 20px;
+    }
+    .range-application-flex {
+        margin: 20px 0;
+    }
+    .slogan-page-style {
+        margin-bottom: 30px;
+    }
+    .background-image-block {
+        padding: 20px;
+    }
+    .logo-page {
+        width: 100%;
+    }
 }
