@@ -206,6 +206,31 @@ button.close {
     padding: 11px 8px 11px 10px;
     min-height: 51px;
 }
+.with_dropdown .more_phone span {
+    padding: 11px 8px 11px 10px;
+}
+.advantages-block-flex {
+    display: flex;
+    margin: 40px 0;
+    justify-content: space-between;
+}
+.advantages-block-item {
+    display: flex;
+    align-items: baseline;
+    width: 31%;
+}
+.advantages-picture {
+    margin-right: 10px;
+    transition: 1.5s ease-in-out;
+}
+.advantages-block-item:hover .advantages-picture{
+    filter: hue-rotate(270deg);
+}
+.with_dropdown span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+}
 @media (max-width: 991px) {
     
 }
