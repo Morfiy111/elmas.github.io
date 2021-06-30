@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
     font-size: 16px;
+    background-image: url(../images/bg-demo.jpg);
 }
 a, button {
     transition: all .2s linear;
@@ -14,7 +15,9 @@ a:hover {
     color: #9BCA38;
     text-decoration: none;
 }
-
+h2 {
+    margin-bottom: 30px;
+}
 #button-up {
     display: none;
     right: 0;
@@ -28,6 +31,7 @@ a:hover {
     text-decoration: none;
     padding: 0px 0 0 28px;
     background: url(../images/scrolltop.png) no-repeat 7px 11px transparent;
+    background-size: 100%;
     border-radius: 0 4px 4px 0;
     -webkit-border-radius: 0 4px 4px 0;
     -moz-border-radius: 0 4px 4px 0;
@@ -333,6 +337,22 @@ button.close {
     color: #fff;
     z-index: 1;
 }
+.image-text-block {
+    display: flex;
+    justify-content: space-between;
+}
+.image-flex-block {
+    width: 49%;
+}
+.image-flex-block img {
+    width: 100%;
+}
+.image-flex-text {
+    width: 49%;
+}
+.image-text-block {
+    margin-bottom: 40px;
+}
 @media (max-width: 991px) {
     .slogan-page-style .slogan-page:before {
         top: 75%;
@@ -367,6 +387,16 @@ button.close {
     }
     .navbar-toggle {
         margin-right: 0;
+    }
+    .image-text-block {
+        flex-direction: column;
+    }
+    .image-flex-block {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .image-flex-text {
+        width: 100%;
     }
 }
 @media(max-width: 500px) {
