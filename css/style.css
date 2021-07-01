@@ -355,6 +355,7 @@ button.close {
 }
 .footer-block {
     border-top: 5px solid #4240bf;
+    margin-top: 40px;
 }
 .footer-flex-block {
     display: flex;
@@ -386,6 +387,13 @@ button.close {
 }
 .footer-copyright p {
     font-size: 12px;
+}
+.services-links a {
+    color: #fff;
+    border-bottom: 1px solid transparent;
+}
+.services-links a:hover {
+    border-bottom: 1px solid #fff;
 }
 @media (max-width: 991px) {
     .slogan-page-style .slogan-page:before {
