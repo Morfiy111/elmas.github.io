@@ -456,6 +456,16 @@ button.close {
     .footer-address {
         width: auto;
     }
+    .banner-main .banner__desc h1 {
+        line-height: 1;
+    }
+    .banner-main .banner__desc {
+        padding: 30px 0 0 0;
+    }
+    .banner-main .banner__desc .banner__text {
+        padding-bottom: 30px;
+        line-height: 25px;
+    }
 }
 @media(max-width: 500px) {
     .advantages-block-flex {
