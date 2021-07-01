@@ -454,6 +454,7 @@ button.close {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 .video-project-item {
     width: 49%;
